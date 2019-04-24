@@ -7,7 +7,7 @@ A terraform module to deploy Oracle Kubernetes Engine.
 - An Oracle Cloud Account.
 - Terraform >= v0.11.11
 
-## Example 
+## Example  
 
 ```
 module "oke" {
