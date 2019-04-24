@@ -23,9 +23,6 @@ output "node_pool_id" {
   value = "${oci_containerengine_node_pool.oke_node_pool.id}"
 }
 
-output "node_pool_id" {
-  value = "${oci_containerengine_node_pool.oke_node_pool.id}"
-}
 output "node_pool_kubernetes_version" {
   value = "${oci_containerengine_node_pool.oke_node_pool.kubernetes_version}"
 }
