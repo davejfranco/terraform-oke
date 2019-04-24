@@ -8,7 +8,7 @@ output "cluster_name" {
 }
 
 output "cluster_endpoint" {
-  value = "${oci_containerengine_cluster.oke_cluster.endpoints.kubernetes}"
+  value = "${oci_containerengine_cluster.oke_cluster.endpoints}"
 }
 
 output "cluster_version" {
@@ -32,5 +32,5 @@ output "node_pool_shape" {
 }
 
 output "node_pool_state" {
-  value = "${oci_containerengine_node_pool.oke_node_pool.nodes.state}"
+  value = "${oci_containerengine_node_pool.oke_node_pool.nodes}"
 }
